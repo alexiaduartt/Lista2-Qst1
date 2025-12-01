@@ -78,4 +78,12 @@ public class Config {
             e.printStackTrace();
         }
     }
+
+    // Método para exibir os dados lidos do arquivo de configuração
+    public void printConfig() {
+        System.out.println("AppId: " + appId);
+        System.out.println("UserName: " + userName);
+        System.out.println("Language: " + language);
+        System.out.println("Offline: " + (offline ? "Sim" : "Não"));
+    }
 }
